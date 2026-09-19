@@ -27,3 +27,19 @@ El código está organizado siguiendo la separación de responsabilidades del pa
 1. Clonar este repositorio en el entorno local:
    ```bash
    git clone [https://github.com/MarcoHernandez2005/Practica2_Libreria.git](https://github.com/MarcoHernandez2005/Practica2_Libreria.git)
+Abrir Apache NetBeans, ir a File > Open Project... y seleccionar la carpeta del repositorio.
+
+Hacer clic derecho sobre el proyecto en la pestaña Projects y seleccionar Properties. En la sección Run, verificar que el servidor seleccionado sea Apache Tomcat.
+
+Hacer clic derecho sobre el proyecto y ejecutar Clean and Build para compilar el proyecto.
+
+Hacer clic en Run (Play). El navegador predeterminado se abrirá automáticamente apuntando a http://localhost:8080/Practica2_Libreria/.
+
+Opción B: Despliegue Directo (Solo Tomcat)
+Para probar el proyecto sin depender de un IDE de desarrollo, se incluye el archivo compilado listo para producción.
+
+Localizar el archivo Practica2_Libreria.war dentro de la carpeta dist/ de este repositorio.
+
+Copiar y pegar el archivo .war dentro de la carpeta webapps/ de una instalación activa de Apache Tomcat 9.
+
+Iniciar el servidor Tomcat (mediante startup.bat o startup.sh). La aplicación se desplegará de forma automática en la ruta del servidor.
